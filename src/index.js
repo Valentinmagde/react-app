@@ -6,6 +6,12 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
+    <style jsx global>{`
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    `}</style>
         <App />
     </BrowserRouter>
 );
